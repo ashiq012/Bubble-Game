@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body html{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(183, 128, 238);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.body{
+    height: 80%;
+    width: 36%;
+    background-color: rgb(94, 52, 133);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+#tbody{
+   height: 12vh;
+   width: 100%;
+   background-color: rgb(94, 52, 133);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.hit{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    color: blueviolet;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.timer{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    color: blueviolet;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.score{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    color: blueviolet;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.info{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    color:white;
+}
+.cont{
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 12vh);
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 15px;
+    overflow: hidden;
+    gap: 15px;
+    font-size: 5vh;
+    font-weight: 900;
+}
+#bubble{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: rgb(183, 128, 238);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+#bubble:hover{
+    background-color: rgb(80, 27, 129);
+}
+#btn{
+    font-size: 3vh;
+    font-weight: 600;
+    padding: 10px;
+    border:none;
+    background-color: white;
+    cursor: pointer;
+    color:rgb(151, 79, 219);
+}
